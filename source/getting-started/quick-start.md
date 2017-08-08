@@ -68,15 +68,9 @@ of choice. You should see an Ember welcome page and not much
 else. Congratulations! You just created and booted your first Ember
 app.
 
-Let's create a new template using the `ember generate` command.
-
-```sh
-ember generate template application
-```
-
-The `application` template is always on screen while the user has your
-application loaded. In your editor, open
-`app/templates/application.hbs` and add the following:
+We will start by editing the `application` template. This template is
+always on screen while the user has your application loaded. In your editor,
+open `app/templates/application.hbs` and change it to the following:
 
 ```app/templates/application.hbs
 <h1>PeopleTracker</h1>
@@ -84,7 +78,7 @@ application loaded. In your editor, open
 {{outlet}}
 ```
 
-Notice that Ember detects the new file and automatically reloads the
+Ember detects the changed file and automatically reloads the
 page for you in the background. You should see that the welcome page
 has been replaced by "PeopleTracker". You also added an `{{outlet}}` to this page, which means that any nested route will be rendered in that place.
 
@@ -247,7 +241,7 @@ all.
 
 So far, your application is listing data, but there is no way for the user
 to interact with the information.
-In web applications, you often want to listen for user events like clicks or hovers.
+In web applications you often want to listen for user events like clicks or hovers.
 Ember makes this easy to do.
 First add an `action` helper to the `li` in your `people-list` component.
 
