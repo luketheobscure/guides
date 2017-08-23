@@ -106,7 +106,7 @@ installing route-test
   create tests/unit/routes/scientists-test.js
 ```
 
-That iss Ember telling you that it has created:
+That is Ember telling you that it has created:
 
 1. A template to be displayed when the user visits `/scientists`.
 2. A `Route` object that fetches the model used by that template.
