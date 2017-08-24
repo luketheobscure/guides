@@ -18,11 +18,9 @@ Type this into your terminal:
 npm install -g ember-cli
 ```
 
-Don't have npm? [Learn how to install Node.js and npm here][npm].
+Don't have npm? [Learn how to install Node.js and npm here](https://docs.npmjs.com/getting-started/installing-node).
 For a full list of dependencies necessary for an Ember CLI project,
 consult our [Installing Ember](../../getting-started/) guide.
-
-[npm]: https://docs.npmjs.com/getting-started/installing-node
 
 ## Create a New Application
 
@@ -142,11 +140,11 @@ export default Ember.Route.extend({
 
 This code example uses the latest features in JavaScript, some of which
 you may not be familiar with. Learn more with this [overview of the
-newest JavaScript features][https://ponyfoo.com/articles/es6].
+newest JavaScript features](https://ponyfoo.com/articles/es6).
 
 In a route's `model()` method, you return whatever data you want to make available to the template.
 If you need to fetch data asynchronously,
-the `model()` method supports any library that uses [JavaScript Promises][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise].
+the `model()` method supports any library that uses [JavaScript Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
 Now let's tell Ember how to turn that array of strings into HTML.
 Open the `scientists` template and add the following code to loop through the array and print it:
@@ -288,7 +286,7 @@ you'll find all of the concatenated and minified assets in your application's `d
 
 The Ember community values collaboration and building common tools that everyone relies on.
 If you're interested in deploying your app to production in a fast and reliable way,
-check out the [Ember CLI Deploy][http://ember-cli-deploy.com/] addon.
+check out the [Ember CLI Deploy](http://ember-cli-deploy.com/) addon.
 
 If you deploy your application to an Apache web server, first create a new virtual host for the application.
 To make sure all routes are handled by index.html,
